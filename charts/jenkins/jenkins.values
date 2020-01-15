@@ -1,0 +1,16 @@
+--- 
+master: 
+  adminPassword: admin
+  resources: 
+    limits: 
+      cpu: 500m
+      memory: 2048Mi
+  serviceType: NodePort
+  nodePort: 32323
+
+persistence:
+  existingClaim: jenkins-pvc-hostpath
+  Size: 10Gi
+
+rabc: 
+  install: true

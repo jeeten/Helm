@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: {{ .Values.valume.pvc }}
+  namespace: {{ .Values.metadata.namespace }}
+spec:
+  storageClassName: manual
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
+  selector: 
+    matchLabels: 
+      type: local
+      label-name: mysql

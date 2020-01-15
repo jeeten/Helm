@@ -1,0 +1,6 @@
+apiVersion: v1
+name: my-nginx
+version: 0.6.0
+appVersion: 1.0
+description: My Cluster Nginx chart
+tillerVersion: 2.16.1
