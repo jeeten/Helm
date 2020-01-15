@@ -3,7 +3,31 @@ entries:
   cassandra:
   - apiVersion: v1
     appVersion: 3.11.5
-    created: "2020-01-15T16:26:33.7804453+05:30"
+    created: "2020-01-15T17:11:19.1536849+05:30"
+    description: Apache Cassandra is a free and open-source distributed database management
+      system designed to handle large amounts of data across many commodity servers,
+      providing high availability with no single point of failure. Cassandra offers
+      robust support for clusters spanning multiple datacenters, with asynchronous
+      masterless replication allowing low latency operations for all clients.
+    digest: 0305b1d84606af1d9b6fd768026df6007408ad91d7e8711542e06a98c792813a
+    engine: gotpl
+    home: http://cassandra.apache.org
+    keywords:
+    - cassandra
+    - database
+    - nosql
+    maintainers:
+    - email: DS00528024@techmahindra.com
+      name: TechMahindra
+    name: cassandra
+    sources:
+    - ""
+    urls:
+    - https://jeeten.github.io/Helm/charts/cassandra-4.1.15.tgz
+    version: 4.1.15
+  - apiVersion: v1
+    appVersion: 3.11.5
+    created: "2020-01-15T17:11:19.1516963+05:30"
     description: Apache Cassandra is a free and open-source distributed database management
       system designed to handle large amounts of data across many commodity servers,
       providing high availability with no single point of failure. Cassandra offers
@@ -27,7 +51,7 @@ entries:
     version: 4.1.14
   - apiVersion: v1
     appVersion: 3.11.5
-    created: "2020-01-15T16:26:33.7775158+05:30"
+    created: "2020-01-15T17:11:19.1497453+05:30"
     description: Apache Cassandra is a free and open-source distributed database management
       system designed to handle large amounts of data across many commodity servers,
       providing high availability with no single point of failure. Cassandra offers
@@ -51,7 +75,7 @@ entries:
     version: 4.1.13
   - apiVersion: v1
     appVersion: 3.11.5
-    created: "2020-01-15T16:26:33.7747115+05:30"
+    created: "2020-01-15T17:11:19.1454146+05:30"
     description: Apache Cassandra is a free and open-source distributed database management
       system designed to handle large amounts of data across many commodity servers,
       providing high availability with no single point of failure. Cassandra offers
@@ -76,7 +100,7 @@ entries:
   jenkins:
   - apiVersion: v1
     appVersion: lts
-    created: "2020-01-15T16:26:33.7882864+05:30"
+    created: "2020-01-15T17:11:19.1585648+05:30"
     description: Open source continuous integration server. It supports multiple SCM
       tools including CVS, Subversion and Git. It can execute Apache Ant and Apache
       Maven-based projects as well as arbitrary scripts.
@@ -106,7 +130,7 @@ entries:
   kafka:
   - apiVersion: v1
     appVersion: 2.4.0
-    created: "2020-01-15T16:26:33.7927709+05:30"
+    created: "2020-01-15T17:11:19.1634956+05:30"
     description: Apache Kafka is a distributed streaming platform.
     digest: bb78a82ea106855f7cf4e10a80fad1f3730e02da468e497f1d71234d4e553933
     engine: gotpl
@@ -129,7 +153,7 @@ entries:
   mariadb:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2020-01-15T16:26:33.7942567+05:30"
+    created: "2020-01-15T17:11:19.1653647+05:30"
     description: Mariadb chart
     digest: 0392cf11449d486105fba043861255019b8ea500356ac29cabd4b13704588c97
     name: mariadb
@@ -139,7 +163,7 @@ entries:
   sonatype-nexus:
   - apiVersion: v1
     appVersion: 3.19.1-01
-    created: "2020-01-15T16:26:33.7966752+05:30"
+    created: "2020-01-15T17:11:19.1673138+05:30"
     description: Sonatype Nexus is an open source repository manager
     digest: 0c6d746ddd928b3635dc891ce555956c7cf9bc8bcb971e7a05ac1a4fa3db98ae
     home: https://www.sonatype.com/nexus-repository-oss
@@ -165,4 +189,4 @@ entries:
     urls:
     - https://jeeten.github.io/Helm/charts/sonatype-nexus-1.21.2.tgz
     version: 1.21.2
-generated: "2020-01-15T16:26:33.7717055+05:30"
+generated: "2020-01-15T17:11:19.1419515+05:30"
