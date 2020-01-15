@@ -1,0 +1,120 @@
+apiVersion: v1
+entries:
+  cassandra:
+  - apiVersion: v1
+    appVersion: 3.11.5
+    created: "2020-01-15T15:17:57.2008675+05:30"
+    description: Apache Cassandra is a free and open-source distributed database management
+      system designed to handle large amounts of data across many commodity servers,
+      providing high availability with no single point of failure. Cassandra offers
+      robust support for clusters spanning multiple datacenters, with asynchronous
+      masterless replication allowing low latency operations for all clients.
+    digest: 2e9210e6ed89534fe341b4747f73b1576a58d559cf9c1ce23109e7db582e0944
+    engine: gotpl
+    home: http://cassandra.apache.org
+    keywords:
+    - cassandra
+    - database
+    - nosql
+    maintainers:
+    - email: DS00528024@techmahindra.com
+      name: TechMahindra
+    name: cassandra
+    sources:
+    - ""
+    urls:
+    - https://jeeten.github.io/Helm/charts/cassandra-4.1.12.tgz
+    version: 4.1.12
+  jenkins:
+  - apiVersion: v1
+    appVersion: lts
+    created: "2020-01-15T15:17:57.2047691+05:30"
+    description: Open source continuous integration server. It supports multiple SCM
+      tools including CVS, Subversion and Git. It can execute Apache Ant and Apache
+      Maven-based projects as well as arbitrary scripts.
+    digest: e739d18e517dd45afc73fbdf0a5db943e8b6167637035e7f6ca3d7a122dfe086
+    home: https://jenkins.io/
+    icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png
+    maintainers:
+    - email: lachlan.evenson@microsoft.com
+      name: lachie83
+    - email: viglesias@google.com
+      name: viglesiasce
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    - email: garridomota@gmail.com
+      name: mogaal
+    name: jenkins
+    sources:
+    - https://github.com/jenkinsci/jenkins
+    - https://github.com/jenkinsci/docker-jnlp-slave
+    - https://github.com/maorfr/kube-tasks
+    - https://github.com/jenkinsci/configuration-as-code-plugin
+    urls:
+    - https://jeeten.github.io/Helm/charts/jenkins-1.9.11.tgz
+    version: 1.9.11
+  kafka:
+  - apiVersion: v1
+    appVersion: 2.4.0
+    created: "2020-01-15T15:17:57.2087353+05:30"
+    description: Apache Kafka is a distributed streaming platform.
+    digest: bb78a82ea106855f7cf4e10a80fad1f3730e02da468e497f1d71234d4e553933
+    engine: gotpl
+    home: https://kafka.apache.org/
+    keywords:
+    - kafka
+    - zookeeper
+    - streaming
+    - producer
+    - consumer
+    maintainers:
+    - email: DS00528024@techmahindra.com
+      name: Tech Mahindra
+    name: kafka
+    sources:
+    - ""
+    urls:
+    - https://jeeten.github.io/Helm/charts/kafka-7.1.2.tgz
+    version: 7.1.2
+  mariadb:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2020-01-15T15:17:57.2125815+05:30"
+    description: Mariadb chart
+    digest: 0392cf11449d486105fba043861255019b8ea500356ac29cabd4b13704588c97
+    name: mariadb
+    urls:
+    - https://jeeten.github.io/Helm/charts/mariadb-0.5.0.tgz
+    version: 0.5.0
+  sonatype-nexus:
+  - apiVersion: v1
+    appVersion: 3.19.1-01
+    created: "2020-01-15T15:17:57.2154727+05:30"
+    description: Sonatype Nexus is an open source repository manager
+    digest: 0c6d746ddd928b3635dc891ce555956c7cf9bc8bcb971e7a05ac1a4fa3db98ae
+    home: https://www.sonatype.com/nexus-repository-oss
+    icon: http://www.sonatype.org/nexus/content/uploads/2015/06/Nexus-Logo.jpg
+    keywords:
+    - artifacts
+    - dependency
+    - management
+    - sonatype
+    - nexus
+    - repository
+    maintainers:
+    - email: rjkernick@gmail.com
+      name: rjkernick
+    - email: tsiddique@live.com
+      name: tsiddique
+    name: sonatype-nexus
+    sources:
+    - https://github.com/sonatype/nexus-public
+    - https://github.com/travelaudience/docker-nexus
+    - https://github.com/travelaudience/kubernetes-nexus
+    - https://github.com/travelaudience/docker-nexus-backup
+    urls:
+    - https://jeeten.github.io/Helm/charts/sonatype-nexus-1.21.2.tgz
+    version: 1.21.2
+generated: "2020-01-15T15:17:57.1979361+05:30"
