@@ -3,7 +3,7 @@ entries:
   cassandra:
   - apiVersion: v1
     appVersion: 3.11.5
-    created: "2020-01-15T15:36:07.4053788+05:30"
+    created: "2020-01-15T15:54:26.7711629+05:30"
     description: Apache Cassandra is a free and open-source distributed database management
       system designed to handle large amounts of data across many commodity servers,
       providing high availability with no single point of failure. Cassandra offers
@@ -23,11 +23,11 @@ entries:
     sources:
     - ""
     urls:
-    - https://jeeten.github.io/Helm/charts/cassandra-4.1.13.tgz
+    - https://jeeten.github.io/Helm/cassandra-4.1.13.tgz
     version: 4.1.13
   - apiVersion: v1
     appVersion: 3.11.5
-    created: "2020-01-15T15:36:07.4024508+05:30"
+    created: "2020-01-15T15:54:26.7676928+05:30"
     description: Apache Cassandra is a free and open-source distributed database management
       system designed to handle large amounts of data across many commodity servers,
       providing high availability with no single point of failure. Cassandra offers
@@ -47,12 +47,12 @@ entries:
     sources:
     - ""
     urls:
-    - https://jeeten.github.io/Helm/charts/cassandra-4.1.12.tgz
+    - https://jeeten.github.io/Helm/cassandra-4.1.12.tgz
     version: 4.1.12
   jenkins:
   - apiVersion: v1
     appVersion: lts
-    created: "2020-01-15T15:36:07.4092812+05:30"
+    created: "2020-01-15T15:54:26.7770561+05:30"
     description: Open source continuous integration server. It supports multiple SCM
       tools including CVS, Subversion and Git. It can execute Apache Ant and Apache
       Maven-based projects as well as arbitrary scripts.
@@ -77,12 +77,12 @@ entries:
     - https://github.com/maorfr/kube-tasks
     - https://github.com/jenkinsci/configuration-as-code-plugin
     urls:
-    - https://jeeten.github.io/Helm/charts/jenkins-1.9.11.tgz
+    - https://jeeten.github.io/Helm/jenkins-1.9.11.tgz
     version: 1.9.11
   kafka:
   - apiVersion: v1
     appVersion: 2.4.0
-    created: "2020-01-15T15:36:07.4132241+05:30"
+    created: "2020-01-15T15:54:26.7838532+05:30"
     description: Apache Kafka is a distributed streaming platform.
     digest: bb78a82ea106855f7cf4e10a80fad1f3730e02da468e497f1d71234d4e553933
     engine: gotpl
@@ -100,22 +100,22 @@ entries:
     sources:
     - ""
     urls:
-    - https://jeeten.github.io/Helm/charts/kafka-7.1.2.tgz
+    - https://jeeten.github.io/Helm/kafka-7.1.2.tgz
     version: 7.1.2
   mariadb:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2020-01-15T15:36:07.415171+05:30"
+    created: "2020-01-15T15:54:26.7858035+05:30"
     description: Mariadb chart
     digest: 0392cf11449d486105fba043861255019b8ea500356ac29cabd4b13704588c97
     name: mariadb
     urls:
-    - https://jeeten.github.io/Helm/charts/mariadb-0.5.0.tgz
+    - https://jeeten.github.io/Helm/mariadb-0.5.0.tgz
     version: 0.5.0
   sonatype-nexus:
   - apiVersion: v1
     appVersion: 3.19.1-01
-    created: "2020-01-15T15:36:07.4181805+05:30"
+    created: "2020-01-15T15:54:26.7897073+05:30"
     description: Sonatype Nexus is an open source repository manager
     digest: 0c6d746ddd928b3635dc891ce555956c7cf9bc8bcb971e7a05ac1a4fa3db98ae
     home: https://www.sonatype.com/nexus-repository-oss
@@ -139,6 +139,6 @@ entries:
     - https://github.com/travelaudience/kubernetes-nexus
     - https://github.com/travelaudience/docker-nexus-backup
     urls:
-    - https://jeeten.github.io/Helm/charts/sonatype-nexus-1.21.2.tgz
+    - https://jeeten.github.io/Helm/sonatype-nexus-1.21.2.tgz
     version: 1.21.2
-generated: "2020-01-15T15:36:07.3995575+05:30"
+generated: "2020-01-15T15:54:26.7647647+05:30"
