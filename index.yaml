@@ -3,7 +3,7 @@ entries:
   cassandra:
   - apiVersion: v1
     appVersion: 3.11.5
-    created: "2020-01-22T17:21:30.0631866+05:30"
+    created: "2020-01-22T17:25:11.4579921+05:30"
     description: Apache Cassandra is a free and open-source distributed database management
       system designed to handle large amounts of data across many commodity servers,
       providing high availability with no single point of failure. Cassandra offers
@@ -27,7 +27,7 @@ entries:
     version: 4.1.16
   - apiVersion: v1
     appVersion: 3.11.5
-    created: "2020-01-22T17:21:30.0612062+05:30"
+    created: "2020-01-22T17:25:11.4561386+05:30"
     description: Apache Cassandra is a free and open-source distributed database management
       system designed to handle large amounts of data across many commodity servers,
       providing high availability with no single point of failure. Cassandra offers
@@ -51,7 +51,7 @@ entries:
     version: 4.1.15
   - apiVersion: v1
     appVersion: 3.11.5
-    created: "2020-01-22T17:21:30.0591991+05:30"
+    created: "2020-01-22T17:25:11.4541386+05:30"
     description: Apache Cassandra is a free and open-source distributed database management
       system designed to handle large amounts of data across many commodity servers,
       providing high availability with no single point of failure. Cassandra offers
@@ -75,7 +75,7 @@ entries:
     version: 4.1.14
   - apiVersion: v1
     appVersion: 3.11.5
-    created: "2020-01-22T17:21:30.0571697+05:30"
+    created: "2020-01-22T17:25:11.4529971+05:30"
     description: Apache Cassandra is a free and open-source distributed database management
       system designed to handle large amounts of data across many commodity servers,
       providing high availability with no single point of failure. Cassandra offers
@@ -99,7 +99,7 @@ entries:
     version: 4.1.13
   - apiVersion: v1
     appVersion: 3.11.5
-    created: "2020-01-22T17:21:30.0536906+05:30"
+    created: "2020-01-22T17:25:11.4510385+05:30"
     description: Apache Cassandra is a free and open-source distributed database management
       system designed to handle large amounts of data across many commodity servers,
       providing high availability with no single point of failure. Cassandra offers
@@ -124,7 +124,7 @@ entries:
   jenkins:
   - apiVersion: v1
     appVersion: lts
-    created: "2020-01-22T17:21:30.0662746+05:30"
+    created: "2020-01-22T17:25:11.4650421+05:30"
     description: Open source continuous integration server. It supports multiple SCM
       tools including CVS, Subversion and Git. It can execute Apache Ant and Apache
       Maven-based projects as well as arbitrary scripts.
@@ -154,7 +154,29 @@ entries:
   kafka:
   - apiVersion: v1
     appVersion: 2.4.0
-    created: "2020-01-22T17:21:30.0691733+05:30"
+    created: "2020-01-22T17:25:11.4749097+05:30"
+    description: Apache Kafka is a distributed streaming platform.
+    digest: 25175b230d2c9f090a5e62cab8970c91409519c4e26b75efe466ba42f36a0938
+    engine: gotpl
+    home: https://kafka.apache.org/
+    keywords:
+    - kafka
+    - zookeeper
+    - streaming
+    - producer
+    - consumer
+    maintainers:
+    - email: DS00528024@techmahindra.com
+      name: Tech Mahindra
+    name: kafka
+    sources:
+    - ""
+    urls:
+    - https://jeeten.github.io/Helm/charts/kafka-7.1.3.tgz
+    version: 7.1.3
+  - apiVersion: v1
+    appVersion: 2.4.0
+    created: "2020-01-22T17:25:11.4699229+05:30"
     description: Apache Kafka is a distributed streaming platform.
     digest: 0b79d873f3577e401444bcda4569166cefa7fb49074ccce6e02b0daed07b96cd
     engine: gotpl
@@ -177,7 +199,7 @@ entries:
   mariadb:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2020-01-22T17:21:30.0721317+05:30"
+    created: "2020-01-22T17:25:11.4760114+05:30"
     description: Mariadb chart
     digest: 0392cf11449d486105fba043861255019b8ea500356ac29cabd4b13704588c97
     name: mariadb
@@ -187,7 +209,7 @@ entries:
   sonatype-nexus:
   - apiVersion: v1
     appVersion: 3.19.1-01
-    created: "2020-01-22T17:21:30.0741623+05:30"
+    created: "2020-01-22T17:25:11.4789909+05:30"
     description: Sonatype Nexus is an open source repository manager
     digest: 71384e364e211fcb18da23685866c7720be184cce2aa2142bf094a74ddf5ada6
     home: https://www.sonatype.com/nexus-repository-oss
@@ -213,4 +235,4 @@ entries:
     urls:
     - https://jeeten.github.io/Helm/charts/sonatype-nexus-1.21.2.tgz
     version: 1.21.2
-generated: "2020-01-22T17:21:30.0496947+05:30"
+generated: "2020-01-22T17:25:11.4489998+05:30"
