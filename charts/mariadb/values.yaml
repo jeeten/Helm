@@ -1,0 +1,18 @@
+--- 
+env: 
+  db: test_db
+  password: techm$1234
+metadata: 
+  namespace: default
+service: 
+  nodeport: 30306
+  type: NodePort
+spec: 
+  replicas: 1
+valume:
+  path: /.data/mariadb 
+  pv: mariadb-pv-hostpath
+  pvc: mariadb-pvc-hostpath
+nodeSelector: 
+  enable: true
+  label: worker2	
