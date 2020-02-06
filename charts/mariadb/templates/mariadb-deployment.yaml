@@ -33,6 +33,11 @@ spec:
             - 
               mountPath: /var/lib/mysql
               name: db-folder
+            -   
+              mountPath: /etc/mysql/conf.d
+              name: config-volume
+            
+              
       {{- if .Values.nodeSelector.enable }}
       nodeSelector: 
         name: {{ .Values.nodeSelector.label }}
@@ -42,4 +47,9 @@ spec:
           name: db-folder
           persistentVolumeClaim: 
             claimName: {{ .Values.valume.pvc }}
+        - 
+          name: config-volume
+          configMap:
+            name: mariadb-config
+            optional: true  
 
