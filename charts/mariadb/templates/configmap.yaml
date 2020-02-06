@@ -1,0 +1,9 @@
+apiVersion: v1
+data:
+  my-config.cnf: |
+    [mysqld]
+    wait_timeout = 7200
+kind: ConfigMap
+metadata:
+  name: mariadb-config
+  namespace: default
