@@ -1,0 +1,29 @@
+{{- if .Values.ingress.enabled }}
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: gloo
+    gloo: ingress-proxy
+  name: ingress-proxy
+  namespace: {{ .Release.Namespace }}
+{{- if .Values.ingressProxy.service }}
+{{- if .Values.ingressProxy.service.extraAnnotations }}
+  annotations:
+  {{- range $key, $value := .Values.ingressProxy.service.extraAnnotations }}
+    {{ $key }}: {{ $value | quote }}
+  {{- end }}
+{{- end }}
+{{- end }}
+spec:
+  ports:
+  - port: {{ .Values.ingressProxy.deployment.httpPort }}
+    protocol: TCP
+    name: http
+  - port: {{ .Values.ingressProxy.deployment.httpsPort }}
+    protocol: TCP
+    name: https
+  selector:
+    gloo: ingress-proxy
+  type: LoadBalancer
+{{- end }}
