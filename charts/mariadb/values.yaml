@@ -15,4 +15,6 @@ valume:
   pvc: mariadb-pvc-hostpath
 nodeSelector: 
   enable: true
-  label: worker2	
+  label: worker2
+configMap:
+  enable: true

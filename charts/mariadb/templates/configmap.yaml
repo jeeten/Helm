@@ -1,16 +1,12 @@
+ {{- if .Values.configMap.enable }}
 apiVersion: v1
 data:
   my-config.cnf: |
     [mysqld]
     wait_timeout=7200
-    innodb_log_file_size=2G
-    innodb_buffer_pool_size=16G
-    innodb_log_buffer_size=128M
-#    net_read_timeout=90 
-#    net_write_timeout=90
-#    interactive_timeout=300
-#    connect_timeout=90
 kind: ConfigMap
 metadata:
   name: mariadb-config
   namespace: default
+{{- end }}
+
